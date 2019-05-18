@@ -5,7 +5,7 @@ from sklearn.feature_extraction import stop_words
  
 stops = set(stop_words.ENGLISH_STOP_WORDS)
 
-stopwords = set(['the', 'and'])
+stopwords = set(['the', 'and', 'you', 'that', 'my', 'is', 'not', 'with', 'your', 'have', 'him', 'to', 'of', ',', '.', ':', ';', '!', '?'])
 
 # get all lines from stdin
 for line in sys.stdin:
